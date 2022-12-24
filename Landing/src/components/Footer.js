@@ -13,13 +13,17 @@ class Footer extends React.Component {
                             <Col lg="4">
                                 <div className="mb-5">
                                     <p className="text-uppercase text-dark footer-title mb-4">Why contact us</p>
-                                    <p className="text-muted f-14">Vihaan is making waves in the industry by pioneering new ideas, strategies and approaches to funding clients. Keep up with the times by getting in touch with Vihaan today!</p>
+                                    {/* <p className="text-muted f-14">Vihaan is making waves in the industry by pioneering new ideas, strategies and approaches to funding clients. Keep up with the times by getting in touch with Vihaan today!</p> */}
+                                    <ul className="list-unstyled footer-sub-menu">
+                                        <li className="f-14"><Link to="/" className="text-muted">Vihaan is making waves in the industry by pioneering new ideas, strategies and approaches to funding clients. Keep up with the times by getting in touch with Vihaan today!</Link></li>
+                                        
+                                    </ul>
                                 </div>
                             </Col>
 
                             <Col lg="8">
                                 <Row>
-                                    <Col lg="4" >
+                                    <Col lg="6" >
                                         <div className="mb-5">
                                             <p className="text-uppercase text-dark footer-title mb-4">How do we help</p>
                                             <ul className="list-unstyled footer-sub-menu">
@@ -29,7 +33,7 @@ class Footer extends React.Component {
                                         </div>
                                     </Col>
 
-                                    <Col  lg="4">
+                                    <Col  lg="6">
                                         <div className="mb-5">
                                             <p className="text-uppercase text-dark footer-title mb-4">deserves better funding</p>
                                             <ul className="list-unstyled footer-sub-menu">

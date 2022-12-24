@@ -81,7 +81,16 @@ class ContactSection extends React.Component {
                                                         <p className="mb-0 f-13"><Link to="" className="text-muted">19bmc015@ietdavv.edu.in   bhavyaseth.23@gmail.com</Link></p>
                                                     </div>
                                                 </div>
-
+                                                
+                                                <div className="contact-details mt-2">
+                                                    <div className="float-left contact-icon mr-3 mt-2">
+                                                        <i className="mdi mdi-map-marker text-muted h5"></i>
+                                                    </div>
+                                                    <div className="app-contact-desc text-muted pt-1">
+                                                        <p className="mb-0 info-title f-13">Location :</p>
+                                                        <p className="mb-0 f-13"><Link to="" className="text-muted">Kanpur/Indore</Link></p>
+                                                    </div>
+                                                </div>
                                                
 
                                                 <div className="follow mt-4">
