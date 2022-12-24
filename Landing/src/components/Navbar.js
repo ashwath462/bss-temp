@@ -32,7 +32,7 @@ class Navbar extends React.Component {
 
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <ScrollspyNav
-                                scrollTargetIds={["home", "about", "services", "features", "pricing", "clients", "blog", "contact"]}
+                                scrollTargetIds={["home", "about", "services", "features", "clients", "contact"]}
                                 activeNavClass="active"
                                 scrollDuration="800"
                                 headerBackground="true"
@@ -42,9 +42,9 @@ class Navbar extends React.Component {
                                     <li className="nav-item"><a href="#about" className="nav-link">About</a></li>
                                     <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
                                     <li className="nav-item"><a href="#features" className="nav-link">Features</a></li>
-                                    <li className="nav-item"><a href="#pricing" className="nav-link">Pricing</a> </li>
-                                    <li className="nav-item"><a href="#clients" className="nav-link">Clients</a></li>
-                                    <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li>
+                                    {/* <li className="nav-item"><a href="#pricing" className="nav-link">Pricing</a> </li> */}
+                                    <li className="nav-item"><a href="#clients" className="nav-link">Team</a></li>
+                                    {/* <li className="nav-item"><a href="#blog" className="nav-link">Blog</a></li> */}
                                     <li className="nav-item"><a href="#contact" className="nav-link">Contact us</a> </li>
                                 </ul>
                             </ScrollspyNav>

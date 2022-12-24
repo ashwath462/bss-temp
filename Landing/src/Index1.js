@@ -43,13 +43,13 @@ class Index1 extends React.Component {
         <FeatureSection />
 
         {/* PricingSection Menu */}
-        <PricingSection />
+        {/* <PricingSection /> */}
 
         {/* ClientSection Menu */}
         <ClientSection />
 
         {/* BlogSection Menu */}
-        <BlogSection />
+        {/* <BlogSection /> */}
 
         {/* ContactSection Menu */}
         <ContactSection />

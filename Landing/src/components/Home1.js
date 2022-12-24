@@ -14,7 +14,7 @@ class Home1 extends React.Component {
                                 <Row className="align-items-center">
                                     <Col lg="5">
                                         <div className="mt-40 home-2-content">
-                                            <h1 className="text-white font-weight-normal home-2-title display-4 mb-0">Make Your Marketing Real.</h1>
+                                            <h1 className="text-white font-weight-normal home-2-title display-4 mb-0">Welcome to our website.</h1>
                                             <p className="text-white-70 mt-4 f-15 mb-0">Ut enim ad minima veniam quis nostrum exercitationem ullam corporis at suscipit laboriosam nisi ut aliquid a commodi consequatur Quis autem.</p>
                                             <div className="mt-5">
                                                 <Link to="#" className="btn btn-custom mr-4">Learn More</Link>

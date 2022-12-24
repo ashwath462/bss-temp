@@ -47,7 +47,7 @@ class ClientSection extends React.Component {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title-heading mb-5">
-                                    <h3 className="text-white mb-1 font-weight-light text-uppercase">Our Clients</h3>
+                                    <h3 className="text-white mb-1 font-weight-light text-uppercase">Our Team</h3>
                                     <div className="title-border-color position-relative"></div>
                                 </div>
                             </div>
@@ -185,7 +185,7 @@ class ClientSection extends React.Component {
                                                 </div>
 
                                             </Col>
-                                            <Col lg="6">
+                                            {/* <Col lg="6">
                                                 <div className="testi-content">
                                                     <div className="testi-box mt-4">
                                                         <h4 className="text-white mb-3 font-weight-light">"Graphic Developer"</h4>
@@ -206,7 +206,7 @@ class ClientSection extends React.Component {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </Col>
+                                            </Col> */}
                                         </Row>
                                     </div>
                                 </RBCarousel>
