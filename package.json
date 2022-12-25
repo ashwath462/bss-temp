@@ -24,7 +24,8 @@
     "react-timeout": "^1.2.0",
     "react-typing-animation": "^1.6.2",
     "react-youtube": "^7.9.0",
-    "reactstrap": "^8.0.0"
+    "reactstrap": "^8.0.0",
+    "homepage": "."
   },
   "scripts": {
     "start": "react-scripts start",
