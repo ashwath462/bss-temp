@@ -6,7 +6,7 @@
     "availity-reactstrap-validation": "^2.5.1",
     "install": "^0.12.2",
     "jquery": "^3.4.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^4.11.0",
     "npm": "^6.9.0",
     "radium": "^0.25.1",
     "react": "^16.8.6",
