@@ -17,5 +17,5 @@ class Root extends React.Component {
     }
    }
 
-ReactDOM.render(<Root />, document.getElementById('root'));
+ReactDOM.render(<Root />, document.getElementById("root"));
 serviceWorker.unregister();
