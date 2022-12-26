@@ -3,6 +3,12 @@ import { Row, Col, Button } from 'reactstrap';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import RBCarousel from "react-bootstrap-carousel";
 
+import s from './images/sir.jpg'
+import a from './images/ashwath.jpg'
+import j from './images/jay.jpg'
+import r from './images/ruchi.jpg';
+import h from './images/hemant.jpg';
+
 const styles = { height: 400, width: "50%" };
 
 class ClientSection extends React.Component {
@@ -60,7 +66,7 @@ class ClientSection extends React.Component {
                                     autoplay={this.state.autoplay}
                                     pauseOnVisibility={true}
                                     onSelect={this.visiableOnSelect}
-                                    slideshowSpeed={2000}
+                                    slideshowSpeed={10000}
                                 >
                                     <div className="item">
                                         <Row>
@@ -68,20 +74,20 @@ class ClientSection extends React.Component {
                                                 <div className="testi-content">
                                                     <div className="testi-box mt-4">
                                                         <h4 className="text-white mb-3 font-weight-light">"CEO"</h4>
-                                                        <p className="text-white-70 font-weight-light mb-0 f-15">At vero eos et accusamus et iusto odio dignissimos that site ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores quas molestias excepturi cupiditate non.</p>
+                                                        <p className="text-white-70 font-weight-light mb-0 f-15">I always did something that I was a little not ready to do. I think that, that is how you grow. When there’s a moment of ‘Wow, I’m not so sure that I can do this, and you push through those moments, it’s then that you have a breakthrough. Sometimes that’s a sign that something really great is about to happen. You’re about to grow and learn a lot more about yourself.</p>
                                                         <div className="quote-img">
-                                                            <img src="images/quote-img.png" alt="" className="img-fluid" />
+                                                            <img src="images/hom" alt="" className="img-fluid" />
                                                         </div>
                                                     </div>
                                                     <div className="mt-2">
                                                         <div className="float-right ml-3">
                                                             <div className="client-img">
-                                                                <img src="images/clients/img-1.jpg" alt="" className="img-fluid rounded-circle" />
+                                                                <img src={s} alt="" className="img-fluid rounded-circle" />
                                                             </div>
                                                         </div>
                                                         <div className="clients-name text-right pt-3">
                                                             <h6 className="text-white font-weight-normal position-relative f-17 mb-0"><span className="after-border"></span>Bhavya Seth</h6>
-                                                            <p className="text-white-70 f-13 mb-0">Indore</p>
+                                                            <p className="text-white-70 f-13 mb-0">Kanpur</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -90,7 +96,7 @@ class ClientSection extends React.Component {
                                                 <div className="testi-content">
                                                     <div className="testi-box mt-4">
                                                         <h4 className="text-white mb-3 font-weight-light">"Manager"</h4>
-                                                        <p className="text-white-70 font-weight-light mb-0 f-15">At vero eos et accusamus et iusto odio dignissimos that site ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores quas molestias excepturi cupiditate non.</p>
+                                                        <p className="text-white-70 font-weight-light mb-0 f-15">The question I ask myself like almost every day is, ‘Am I doing the most important thing I could be doing?’… Unless I feel like I’m working on the most important problem that I can help with, then I’m not going to feel good about how I’m spending my time. And that’s what this company is.</p>
                                                         <div className="quote-img">
                                                             <img src="images/quote-img.png" alt="" className="img-fluid" />
                                                         </div>
@@ -98,7 +104,7 @@ class ClientSection extends React.Component {
                                                     <div className="mt-2">
                                                         <div className="float-right ml-3">
                                                             <div className="client-img">
-                                                                <img src="images/clients/img-1.jpg" alt="" className="img-fluid rounded-circle" />
+                                                                <img src={a} alt="" className="img-fluid rounded-circle" />
                                                             </div>
                                                         </div>
                                                         <div className="clients-name text-right pt-3">
@@ -117,7 +123,7 @@ class ClientSection extends React.Component {
                                                 <div className="testi-content">
                                                     <div className="testi-box mt-4">
                                                         <h4 className="text-white mb-3 font-weight-light">"Developer"</h4>
-                                                        <p className="text-white-70 font-weight-light mb-0 f-15">At vero eos et accusamus et iusto odio dignissimos that site ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores quas molestias excepturi cupiditate non.</p>
+                                                        <p className="text-white-70 font-weight-light mb-0 f-15">Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.</p>
                                                         <div className="quote-img">
                                                             <img src="images/quote-img.png" alt="" className="img-fluid" />
                                                         </div>
@@ -125,7 +131,7 @@ class ClientSection extends React.Component {
                                                     <div className="mt-2">
                                                         <div className="float-right ml-3">
                                                             <div className="client-img">
-                                                                <img src="images/clients/img-3.jpg" alt="" className="img-fluid rounded-circle" />
+                                                                <img src={r} alt="" className="img-fluid rounded-circle" />
                                                             </div>
                                                         </div>
                                                         <div className="clients-name text-right pt-3">
@@ -139,7 +145,7 @@ class ClientSection extends React.Component {
                                                 <div className="testi-content">
                                                     <div className="testi-box mt-4">
                                                         <h4 className="text-white mb-3 font-weight-light">"Content Writer"</h4>
-                                                        <p className="text-white-70 font-weight-light mb-0 f-15">At vero eos et accusamus et iusto odio dignissimos that site ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores quas molestias excepturi cupiditate non.</p>
+                                                        <p className="text-white-70 font-weight-light mb-0 f-15">“Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only people who never tumble are those who never mount the high wire. This is your moment. Own it.</p>
                                                         <div className="quote-img">
                                                             <img src="images/quote-img.png" alt="" className="img-fluid" />
                                                         </div>
@@ -147,7 +153,7 @@ class ClientSection extends React.Component {
                                                     <div className="mt-2">
                                                         <div className="float-right ml-3">
                                                             <div className="client-img">
-                                                                <img src="images/clients/img-4.jpg" alt="" className="img-fluid rounded-circle" />
+                                                                <img src={j} alt="" className="img-fluid rounded-circle" />
                                                             </div>
                                                         </div>
                                                         <div className="clients-name text-right pt-3">
@@ -166,7 +172,7 @@ class ClientSection extends React.Component {
                                                 <div className="testi-content">
                                                     <div className="testi-box mt-4">
                                                         <h4 className="text-white mb-3 font-weight-light">"R&D"</h4>
-                                                        <p className="text-white-70 font-weight-light mb-0 f-15">At vero eos et accusamus et iusto odio dignissimos that site ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores quas molestias excepturi cupiditate non.</p>
+                                                        <p className="text-white-70 font-weight-light mb-0 f-15">A good marketing plan can’t be formed in just four hours. Plans are formed on extensive research.</p>
                                                         <div className="quote-img">
                                                             <img src="images/quote-img.png" alt="" className="img-fluid" />
                                                         </div>
@@ -174,7 +180,7 @@ class ClientSection extends React.Component {
                                                     <div className="mt-2">
                                                         <div className="float-right ml-3">
                                                             <div className="client-img">
-                                                                <img src="images/clients/img-5.jpg" alt="" className="img-fluid rounded-circle" />
+                                                                <img src={h} alt="" className="img-fluid rounded-circle" />
                                                             </div>
                                                         </div>
                                                         <div className="clients-name text-right pt-3">
