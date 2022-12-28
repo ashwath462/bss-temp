@@ -63,22 +63,27 @@ class ContactSection extends React.Component {
                                         <div className="col-lg-4 col-md-6">
                                             <div className="contact-cantent p-3">
                                                 <div className="contact-details">
-                                                    <div className="float-left contact-icon mr-3 mt-2">
-                                                        <i className="mdi mdi-headphones text-muted h5"></i>
-                                                    </div>
-                                                    <div className="app-contact-desc text-muted pt-1">
-                                                        <p className="mb-0 info-title f-13">Call :</p>
-                                                        <p className="mb-0 f-13">+91 8896808657</p>
-                                                    </div>
+                                                        <div className="float-left contact-icon mr-3 mt-2">
+                                                        <a href="tel:+918896808657"><i className="mdi mdi-headphones text-muted h5"></i></a>
+                                                        </div>
+                                                        <div className="app-contact-desc text-muted pt-1">
+                                                            <p className="mb-0 info-title f-13">Call :</p>
+                                                            <a href="tel:+918896808657" style={{color:"#ff8700"}}>
+                                                            <p className="mb-0 f-13">+91 8896808657</p>
+                                                            </a>
+                                                        </div>
+                                                    
                                                 </div>
 
                                                 <div className="contact-details mt-2">
                                                     <div className="float-left contact-icon mr-3 mt-2">
-                                                        <i className="mdi mdi-email-outline text-muted h5"></i>
+                                                    <a href="tel:+918896808657"><i className="mdi mdi-email-outline text-muted h5"></i></a>
                                                     </div>
                                                     <div className="app-contact-desc text-muted pt-1">
                                                         <p className="mb-0 info-title f-13">Email :</p>
-                                                        <p className="mb-0 f-13"><Link to="" className="text-muted">19bmc015@ietdavv.edu.in   bhavyaseth.23@gmail.com</Link></p>
+                                                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bhavyaseth.23@gmail.com" target="_blank" style={{color:"#ff8700"}}>
+                                                            <p className="mb-0 f-13">bhavyaseth.23@gmail.com</p>
+                                                        </a>
                                                     </div>
                                                 </div>
                                                 
@@ -88,7 +93,7 @@ class ContactSection extends React.Component {
                                                     </div>
                                                     <div className="app-contact-desc text-muted pt-1">
                                                         <p className="mb-0 info-title f-13">Location :</p>
-                                                        <p className="mb-0 f-13"><Link to="" className="text-muted">Kanpur/Indore</Link></p>
+                                                        <p className="mb-0 f-13" ><a href='https://www.google.com/maps/place/Kanpur,+Uttar+Pradesh/@26.4471054,80.1982971,11z/data=!3m1!4b1!4m5!3m4!1s0x399c4770b127c46f:0x1778302a9fbe7b41!8m2!3d26.449923!4d80.3318736' target="_blank" style={{color:"#ff8700"}}>Kanpur</a>/<a href='https://www.google.com/maps/place/Indore,+Madhya+Pradesh/@22.7239117,75.723764,11z/data=!3m1!4b1!4m5!3m4!1s0x3962fcad1b410ddb:0x96ec4da356240f4!8m2!3d22.7195687!4d75.8577258' target="_blank" style={{color:"#ff8700"}}>Indore</a> </p>
                                                     </div>
                                                 </div>
                                                

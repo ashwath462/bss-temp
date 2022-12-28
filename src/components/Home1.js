@@ -15,10 +15,10 @@ class Home1 extends React.Component {
                                     <Col lg="5">
                                         <div className="mt-40 home-2-content">
                                         <h1 className='heading'>VIHAAN</h1>
-                                            <p className='subtext'>Creating a platform where all start-ups may connect and exchange their experiences and work</p>
-                                            <div className="mt-5">
-                                                <Link to="#" className="btn btn-custom mr-4">Learn More</Link>
-                                            </div>
+                                            <p className='subtext'>Creating a platform where all start-ups will connect and exchange their experiences and work</p>
+                                            {/* <div className="mt-5">
+                                                <Link to="" className="btn btn-custom mr-4">Learn More</Link>
+                                            </div> */}
                                         </div>
                                     </Col>
 
