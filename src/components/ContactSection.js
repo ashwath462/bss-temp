@@ -101,11 +101,11 @@ class ContactSection extends React.Component {
                                                 <div className="follow mt-4">
                                                     <h4 className="text-dark mb-3">Follow</h4>
                                                     <ul className="follow-icon list-inline mt-32 mb-0">
-                                                        <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-facebook"></i></Link></li>&nbsp;
-                                                        <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-twitter"></i></Link></li>&nbsp;
-                                                        <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-google-plus"></i></Link></li>&nbsp;
-                                                        <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-linkedin"></i></Link></li>&nbsp;
-                                                        <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-whatsapp"></i></Link></li>&nbsp;
+                                                        {/* <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-facebook"></i></Link></li>&nbsp; */}
+                                                        {/* <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-twitter"></i></Link></li>&nbsp; */}
+                                                        <li className="list-inline-item f-15"><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=bhavyaseth.23@gmail.com" target='_blank' className="social-icon text-muted"><i className="mdi mdi-google-plus"></i></a></li>&nbsp;
+                                                        <li className="list-inline-item f-15"><a href='https://www.linkedin.com/in/bhavya-seth-275240147/' target='_blank' className="social-icon text-muted"><i className="mdi mdi-linkedin"></i></a></li>&nbsp;
+                                                        {/* <li className="list-inline-item f-15"><Link to="#" className="social-icon text-muted"><i className="mdi mdi-whatsapp"></i></Link></li>&nbsp; */}
                                                     </ul>
                                                 </div>
                                             </div>
